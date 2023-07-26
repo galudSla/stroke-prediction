@@ -34,12 +34,12 @@ The dataset used in this project contains the following attributes:
 ## Data Preprocessing
 The data preprocessing steps performed in this project are as follows:
 
-1) Dropped the 'bmi' column (`drop_column.ipynb`): The 'bmi' column contained NaN (Not a Number) values for some entries, which could not be used for analysis. Hence, the column was dropped from the dataset.
+1) Dropped the 'bmi' column (`column_drop.ipynb`): The 'bmi' column contained NaN (Not a Number) values for some entries, which could not be used for analysis. Hence, the column was dropped from the dataset.
 
 2) Imputation of missing values for 'bmi':
    - Replaced NaN values with the mean (`mean.ipynb`): Initially, missing 'bmi' values were replaced with the mean of the available 'bmi' values in the dataset.
    - Replaced NaN values with linear regression predictions (`linear_regression.ipynb`): Another approach was taken to impute missing 'bmi' values using linear regression based on other relevant features.
-   - Used K-nearest neighbors (KNN) imputation (`knn.ipynb`): Missing 'bmi' values were also imputed using KNN, which leverages the information from similar patients to fill in the missing values.
+   - Used K-nearest neighbors (KNN) imputation (`kNN.ipynb`): Missing 'bmi' values were also imputed using KNN, which leverages the information from similar patients to fill in the missing values.
 
 3) Encoding Categorical Data:
    - Label Encoding: When categorical data needed to be converted to numerical format, label encoding was applied to transform categorical values into numeric labels.
