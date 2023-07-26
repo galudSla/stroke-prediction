@@ -1,4 +1,4 @@
-# Data Science Project - Stroke Prediction
+# Stroke Prediction
 
 This repository contains the code and data for a data science project focused on predicting stroke occurrences in patients. The project involves data preprocessing, handling missing values, and employing a Random Forest classifier to predict stroke outcomes. The project utilizes various data attributes, including age, gender, hypertension, heart disease, average glucose level, and smoking status, among others, to make predictions.
 
@@ -8,6 +8,7 @@ This repository contains the code and data for a data science project focused on
 - [Data Preprocessing](#data-preprocessing)
 - [Model Training](#model-training)
 - [Evaluation Metrics](#evaluation-metrics)
+- [Authors](#authors)
 
 ## Introduction
 Stroke is a serious medical condition that requires prompt diagnosis and treatment. Predicting the likelihood of stroke can significantly aid in early intervention and potentially prevent severe consequences. This data science project aims to build a predictive model to determine whether a patient is at risk of experiencing a stroke based on various features from their medical records.
